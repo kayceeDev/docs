@@ -87,7 +87,7 @@ const accountName = "https://api.paycrest.io/v1/verify-account";
 const createOrder = "https://api.paycrest.io/v1/sender/orders";
 
   try {
-    const response = await fetch(accountName, {
+    const response = await fetch(createOrder, {
       method: "POST",
       headers: { "Content-Type": "application/json", "API-Key": "208a4aef-1320-4222-82b4-e3bca8781b4b" },
       body: JSON.stringify(orderParams)
