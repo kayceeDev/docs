@@ -216,3 +216,8 @@ Once you deploy your server and get the endpoint, you can listen to payment orde
 If pending, your frontend would have to continue pollling till it gets back a conclusive response - either `expired`, `settled`, or `refunded`. 
 
 **P.S**: This backend structure can be done in any custom way depending on your app as long as the webhook validates and stores the correct payload sent to it.
+
+## Tutorial
+- [Building a Payment App with Next.js and Sender API for Off-Ramping USDT to Nigerian Naira
+](https://www.dropbox.com/scl/fi/623tezxwdkklvyps4tj77/Tutorial_-Building-a-Payment-App-with-Next.js-and-Sender-API-for-Off-Ramping-USDT-to-Nigerian-Naira.paper?dl=0&rlkey=aqjefcjn4s1f45qltuqvbbd1v&st=mu56n7js)
+- [Video walkthrough of the Demo App](https://www.dropbox.com/scl/fi/fn1n1qfuyvxqgj7ohimzx/Screencast-from-2025-03-28-18-16-39-1.mp4?rlkey=jw180krj8mbme6wehl6nhvgxs&e=1&dl=0)
